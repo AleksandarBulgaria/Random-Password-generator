@@ -11,7 +11,7 @@ function PassGen(){
         if(i<15){
             passOneEl.textContent += characters[randomArrIndex]
         }else{
-            passTwoEl.tabIndex += characters[randomArrIndex]
+            passTwoEl.textContent += characters[randomArrIndex]
         }
     }
 }
